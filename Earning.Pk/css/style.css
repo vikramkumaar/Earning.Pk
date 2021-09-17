@@ -516,16 +516,15 @@ a:focus {
 /*******************************/
 .page-header {
     position: relative;
-    margin-bottom: 45px;
+    margin-bottom: 5px;
     padding: 90px 0;
     text-align: center;
-    background: #060c28;
     border-top: 1px dotted #ffffff;
 }
 
 .page-header h2 {
     position: relative;
-    color: #ffffff;
+    color: #060c28;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
