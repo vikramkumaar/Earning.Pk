@@ -22,6 +22,33 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <style>
+            .one
+            {
+                color: #060c28;
+                font-weight: 500;
+            }
+            .form-control
+            {
+                border-color: #749232;
+            }
+            .form-control:hover
+            {
+                border-color: #749232;
+
+            }
+            .form-control:focus 
+            {
+              border-color: #060c28;
+              outline: 0;
+            }
+            
+            .two:hover 
+            {
+               background-color: #749232;
+            }
+        
+        </style>
     </head>
 
     <body>
@@ -209,36 +236,85 @@
         <!-- Price End -->
         <div>
             <div class="container">
-                <hr style="background-color: #749232;">
-                <tr style="float: left; align-items: center;">
-                    <td>
-               
-            <select id="calc_plan" style="border-radius: 30px;height: 30px;margin-left: 20px">
-            <option value="0">Select Plan</option>
-              <option value="1"> 6% hourly for 20 hours </option>
-              <option value="2">4% hourly for 40 hours</option>
-              <option value="3">20% hourly for 10 hours </option>
-              <option value="4"> VIP 40% Hourly For 5 Hours</option>
-            </select>
-            </td>
-            <td>
-                <input type="text" name="number" placeholder="Enter Amount" style="margin-left: 20px">
-            </td>
-            <td>
-                <input type="text" name="number" placeholder="Total Profit" style="margin-left: 20px" readonly="readonly">
-            </td>
-            <td>
-                <input type="text" name="number" placeholder="Total Percent" style="margin-left: 20px" readonly="readonly">
-            </td>
-             <td>
-                <input type="text" name="number" placeholder="Total Return" style="margin-left: 20px" readonly="readonly">
-            </td>
-            </tr>
+                <hr style="background-color: #060c28;">
+                <div class="form-row">
+                <div class="form-group col-md-4">
+                    <span class="one">Select Plan</span>
+                    <select style="border-radius: 10px;border-color: #749232" class="form-control">
+                      <option  selected="selected" class="two">Select</option>
+                      <option value="1" class="two"> 6% hourly for 20 hours </option>
+                      <option value="2" class="two">4% hourly for 40 hours</option>
+                      <option value="3" class="two">20% hourly for 10 hours </option>
+                      <option value="4" class="two"> VIP 40% Hourly For 5 Hours</option>
+                    </select>
+                </div>
+            <div class="form-group col-md-2">
+                <span class="one">Enter Amount</span>
+                <input type="text" name="number" placeholder="100" class="form-control">
+            </div>
+            <div class="form-group col-md-2">
 
-                <hr style="background-color: #749232;">
+                <span class="one">Total Profit</span>
+                <input type="text" name="number" placeholder="$0.00" readonly="readonly"class="form-control">
+            </div>
+            <div class="form-group col-md-2">
+                <span class="one">Total Percent</span>
+                <input type="text" name="number" placeholder="0%" readonly="readonly" class="form-control">
+            </div>
+             <div class="form-group col-md-2">
+                  <span class="one">Total Return</span>
+                <input type="text" name="number" placeholder="$0.00" readonly="readonly" class="form-control">
+            </div>
+
+            </div>
+
+                <hr style="background-color: #060c28;">
+        </div>
+        </div>
+
+
+        <div class="page-header"style="background: url('img/carousel-1.jpg');">
+            <div class="container" >
+                <div class="row centered">
+                    <div class="col-12">
+                        <h3><b style="color: #060c28;">3 LEVEL</b> REFERRAL COMMISSION</h3>
+                        <br>
+                    </div>
+                    <div class="col-md-4">
+                       <div style="height: 150px; width: 150px; border-radius:50%; border: 3px solid;align-items: center;margin-left: 110px">
+                            <div style="height: 130px; width: 130px; border-radius:50%; border: 3px solid #060c28; align-items: center;margin-top:7px;margin-left:7px">
+                                <h3 style="margin-top:28px;margin-left:7px">Level 1</h3>
+                                <h3 style="margin-top:5px;margin-left:7px; font-weight: 700">4%</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                       <div style="height: 150px; width: 150px; border-radius:50%; border: 3px solid;align-items: center;margin-left: 110px">
+                            <div style="height: 130px; width: 130px; border-radius:50%; border: 3px solid #060c28; align-items: center;margin-top:7px;margin-left:7px">
+                                <h3 style="margin-top:28px;margin-left:7px">Level 2</h3>
+                                <h3 style="margin-top:5px;margin-left:7px; font-weight: 700">0.5%</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                       <div style="height: 150px; width: 150px; border-radius:50%; border: 3px solid;align-items: center;margin-left: 110px">
+                            <div style="height: 130px; width: 130px; border-radius:50%; border: 3px solid #060c28; align-items: center;margin-top:7px;margin-left:7px">
+                                <h3 style="margin-top:28px;margin-left:7px">Level 3</h3>
+                                <h3 style="margin-top:5px;margin-left:7px; font-weight: 700">0.5%</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <br>
+                        <p style="text-align: center;">At money-growing.ltd LTD, we believe there is no better advertisement than satisfied clients. No wonder that majority of our new clients are affiliates from our existing clients. We are proud that our clients like to recommend our financial service to others. Because of this, we are pleased to offer one of the strongest online affiliate programs in the financial service industry, with a high commission rate, customized tools and reports, and timely commission payouts.</p>
+                         <p style="text-align: center;">money-growing.ltd LTD is paying for the popularization of its investment program and anyone can be rewarded. To benefit from this, you have to tell your friends, relatives or colleagues about our company. We offer 3 level referral commissions: The first level of direct referrals from you will entitle you to a commission of 4%, and second level gives you commission of 0.5% and third level is 0.5% . You can surely make a lot of money from the referral commissions you get!</p>
+                    </div>
+                </div>
             </div>
         </div>
-        
+
+
+
         <!-- Footer Start -->
         <div class="footer" style="background: #060c28;">
             <div class="container">
