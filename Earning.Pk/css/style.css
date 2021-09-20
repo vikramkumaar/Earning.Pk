@@ -706,108 +706,6 @@ a:focus {
 /*******************************/
 /********* Service CSS *********/
 /*******************************/
-.service {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 0 0;
-}
-
-.service .service-item {
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 45px;
-}
-
-.service .service-item i {
-    color: #202C45;
-    font-size: 75px;
-    line-height: 75px;
-    margin-bottom: 20px;
-}
-
-.service .service-item [class^="flaticon-"]::before {
-    margin: 0;
-    font-size: 60px;
-    line-height: 60px;
-    background-image: linear-gradient(#E81C2E, #202C45);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: .5s;
-}
-
-.service .service-item h3 {
-    margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-.service .service-item p {
-    margin: 0;
-}
-
-
-/*******************************/
-/********** Facts CSS **********/
-/*******************************/
-.facts {
-    position: relative;
-    width: 100%;
-    min-height: 400px;
-    margin: 45px 0;
-    display: flex;
-    align-items: center;
-    background: #202C45;
-}
-
-.facts .facts-item {
-    display: flex;
-    flex-direction: row;
-    margin: 25px 0;
-}
-
-.facts .facts-item i {
-    margin-top: 15px;
-    font-size: 45px;
-    color: #E81C2E;
-}
-
-.facts .facts-text {
-    padding-left: 20px;
-}
-
-.facts .facts-text h3 {
-    position: relative;
-    display: inline-block;
-    color: #ffffff;
-    font-size: 60px;
-    font-weight: 700;
-}
-
-.facts .facts-text h3::after {
-    position: absolute;
-    content: "\f067";
-    top: 0px;
-    right: -25px;
-    color: #ffffff;
-    font-size: 25px;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-}
-
-.facts .facts-text p {
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 500;
-    margin: 0;
-}
-
-
-/*******************************/
-/********* Pricing CSS *********/
-/*******************************/
 .price {
     position: relative;
     width: 100%;
@@ -918,8 +816,6 @@ a:focus {
     background: #202C45;
     box-shadow: inset 200px 0 0 0 #202C45;
 }
-
-
 
 /*******************************/
 /******** Location CSS *********/
