@@ -9,7 +9,11 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
 }
-
+.form-control:focus
+{
+    border-color: #749232;
+    box-shadow: 0.5px #749232;
+}
 .profile-nav, .profile-info{
     margin-top:30px;   
 }
