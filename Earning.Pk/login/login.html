@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	        <!-- Favicon -->
         <link href="images/logo1.png" rel="icon">
+        <script src="css/login.js"></script>
 
 	</head>
 	<body style="background: url('images/bg.jpg');">
@@ -40,17 +41,17 @@
 									</p>
 								</div>
 			      	</div>
-							<form action="#" class="signin-form">
+							<form action="login.html" method="POST" class="signin-form">
 			      		<div class="form-group mb-3">
-			      			<label class="label" for="name">Username</label>
-			      			<input type="text" class="form-control" placeholder="Username" required>
+			      			<label class="label" for="name" >Username</label>
+			      			<input type="text" class="form-control" id="username" placeholder="Username" required>
 			      		</div>
 		            <div class="form-group mb-3">
 		            	<label class="label" for="password">Password</label>
-		              <input type="password" class="form-control" placeholder="Password" required>
+		              <input type="password" class="form-control" id="password" placeholder="Password" required>
 		            </div>
 		            <div class="form-group">
-		            	<a href="https://vikramkumaar.github.io/Earning.Pk/Earning.Pk/profile/UserProfile.html" class="form-control btn btn-primary submit px-3">Sign In</a>
+		            	<a href="#" class="form-control btn btn-primary submit px-3" onclick="validate()">Sign In</a>
 		            </div>
 		            <div class="form-group d-md-flex">
 		            	<div class="w-50 text-left">
