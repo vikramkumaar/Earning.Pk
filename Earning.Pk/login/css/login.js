@@ -40,9 +40,9 @@ async function callIt()
                  localStorage.setItem("LOGED_IN_USER", JSON.stringify(cars));
                 window.open('https://vikramkumaar.github.io/Earning.Pk/Earning.Pk/profile/UserProfile.html', '_parent').focus();
             }
-            else if(nam.trim() == "" && pass.trim() == "")
+            else if(nam.trim() == "" || pass.trim() == "")
             {
-     	       	alert("Please Enter your username and password");
+     	       	alert("Please Enter your username or password");
             }
             else
             {
