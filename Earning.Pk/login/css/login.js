@@ -29,15 +29,15 @@ async function callIt()
 
             if(nam == "admin@123" && pass == 12345)
             {
-            	alert("admin is off");
-
+            	alert("Successfully login");
+            	window.open('https://vikramkumaar.github.io/Earning.Pk/Earning.Pk/Admin/admin.html', '_parent').focus();
             }
             else if (nam == cars[1] && pass == pswd) 
             {
             	 //alert(dd+" : "+pass);
                 //document.getElementById('naam').innerHTML =name;
                 alert("Successfully login");
-                 localStorage.setItem("LOGED_IN_USER", JSON.stringify(cars));
+                localStorage.setItem("LOGED_IN_USER", JSON.stringify(cars));
                 window.open('https://vikramkumaar.github.io/Earning.Pk/Earning.Pk/profile/UserProfile.html', '_parent').focus();
             }
             else if(nam.trim() == "" && pass.trim() == "")
