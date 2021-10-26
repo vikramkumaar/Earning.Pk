@@ -44,9 +44,9 @@ async function callIt()
             {
      	       	alert("Please Enter your username and password");
             }
-            else if(!nam || !pass)
+            else if(nam.trim() == "" || pass.trim() == "")
             {
-     	       	alert("Please Enter your username and password");
+     	       	alert("Please Enter your username or password");
             }
             else
             {
