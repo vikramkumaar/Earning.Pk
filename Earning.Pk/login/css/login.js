@@ -12,7 +12,7 @@ async function callIt()
             const cars = [];
             data.forEach(element => 
             {
-                if(element.id == nam && element.password == pass)
+                if(element.email == nam && element.password == pass)
                 {
                 	//alert("Pohch gaye...");
                      name = element.fullName;
