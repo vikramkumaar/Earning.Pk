@@ -32,9 +32,9 @@ async function callIt()
             	alert("admin is off");
 
             }
-            else if (nam == dd && pass == pswd) 
+            else if (nam == cars[1] && pass == pswd) 
             {
-            	 alert(dd+" : "+pass);
+            	 //alert(dd+" : "+pass);
                 //document.getElementById('naam').innerHTML =name;
                 alert("Successfully login");
                  localStorage.setItem("LOGED_IN_USER", JSON.stringify(cars));
