@@ -1,9 +1,5 @@
 body {
-<<<<<<< HEAD
     background: url("https://vikramkumaar.github.io/Earning.Pk/Earning.Pk/Signup/images/backg.jpg");
-=======
-    background: url("https://vikramkumaar.github.io/Earning.Pk//Earning.Pk/Signup/images/backg.jpg");
->>>>>>> 868dcb0bb4412c3dc2b7b96e923b90b5b262795e
 	margin:  0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -444,34 +440,7 @@ body {
 .actions ul li:first-child {
 	opacity: 0;
 }
-.actions ul li {
-	padding: 0;
-    border: none;
-    border-radius: 50%;
-    -o-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    display: inline-flex;
-    height: 50px;
-    width: 50px;
-    justify-content: center;
-    -o-justify-content: center;
-    -ms-justify-content: center;
-    -moz-justify-content: center;
-    -webkit-justify-content: center;
-    align-items: center;
-    -o-align-items: center;
-    -ms-align-items: center;
-    -moz-align-items: center;
-    -webkit-align-items: center;
-    background: #749232;
-    cursor: pointer;
-    font-size: 18px;
-}
-.actions ul li:hover {
-	background: #060c28;
-}
+
 .actions ul li a {
 	color: #fff;
 	text-decoration: none;

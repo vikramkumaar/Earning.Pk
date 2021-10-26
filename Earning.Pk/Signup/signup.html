@@ -12,11 +12,15 @@
 	<link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
 	<!-- Main Style Css -->
     <link rel="stylesheet" href="css/style.css"/>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.steps.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/signup.js"></script>
 </head>
 <body>
 	<div class="page-content">
 		<div class="form-v1-content">
-			<div class="wizard-form">
 		        <form class="form-register" action="#" method="post">
 		        	<div id="form-total">
 		        		<!-- SECTION 1 -->
@@ -32,6 +36,7 @@
 									<h3 class="heading">Peronal Infomation</h3>
 									<p>Please enter your Peronal Infomation and proceed to the next step so we can build your account.  </p>
 								</div>
+								<form method="post" action="signup.html">
 								<div class="form-row">
 									<div class="form-holder form-holder-2">
 										<fieldset>
@@ -79,11 +84,20 @@
 											<input type="text" class="form-control" id="accountType" name="last-name" placeholder="Account Type" required>
 										</fieldset>
 									</div>
-								</div>	<div class="form-row">
+								</div>	
+								<div class="form-row">
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend>Account Number</legend>
 											<input type="text" class="form-control" id="accountNumber" name="last-name" placeholder="Account Number" required>
+										</fieldset>
+									</div>
+								</div>	
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<fieldset>
+											<legend>Plan</legend>
+											<input type="text" class="form-control" id="plan" name="last-name" placeholder="Plan number" required>
 										</fieldset>
 									</div>
 								</div>
@@ -95,14 +109,16 @@
 										</fieldset>
 									</div>
 								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+									<input type="button" value="Create" class="form-control btn" onclick="create()" style="background: #749232; width: 30%;color: #fff">
+								</div>
+								</div>
+							</form>
 			            </section>
 		        	</div>
 		        </form>
 			</div>
-		</div>
 	</div>
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/jquery.steps.js"></script>
-	<script src="js/main.js"></script>
 </body>
 </html>

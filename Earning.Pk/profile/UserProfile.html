@@ -12,9 +12,10 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
         <link href="css/style.css" rel="stylesheet">   
-        <link href="css/StyleMin.css" rel="stylesheet">       
+        <link href="css/StyleMin.css" rel="stylesheet">   
+        <script src="F:/Earning.Pk/Earning.Pk/Earning.Pk/login/css/load.js"></script>    
 </head>
-<body>
+<body onload="onLoad()">
      <!-- Top Bar Start -->
         <div class="top-bar">
             <div class="container">
@@ -44,10 +45,10 @@
       <div class="panel">
           <div class="user-heading round">
               <a href="#">
-                  <img src="img/pic.jpeg" alt="">
+                  <img src="img/pic.jpg" alt="">
               </a>
-              <h1>Vikram Kumar</h1>
-              <p>Vikramjoya98@gmail.com</p>
+              <h1 id="name1">Vikram Kumar</h1>
+              <p id="mail1">Vikramjoya98@gmail.com</p>
           </div>
 
           <ul class="nav nav-pills nav-stacked">
@@ -73,16 +74,16 @@
               <h1>About Me</h1>
               <div class="row">
                   <div class="bio-row">
-                      <p><span>Full Name </span>: Vikram Kumar</p>
+                      <p>Full Name : <span id="naam">Vikram Kumar</span></p>
                   </div>
                   <div class="bio-row">
-                      <p><span>User Name </span>: Vikramjoya</p>
+                      <p>User ID: <span id="di">Vikramjoya</span></p>
                   </div>
                   <div class="bio-row">
-                      <p><span>Mail </span>: Vikramjoya98@gmail.com</p>
+                      <p>Mail: <span id="mail">Vikramjoya98@gmail.com </span></p>
                   </div>
                   <div class="bio-row">
-                      <p><span>Mobile</span>: +923052451076</p>
+                      <p>Mobile:<span id="phon"> +923052451076</span></p>
                   </div>
                   <div class="bio-row">
                       <p><span>Registration </span>: May-02-2021</p>

@@ -44,14 +44,14 @@
 							<form action="login.html" method="POST" class="signin-form">
 			      		<div class="form-group mb-3">
 			      			<label class="label" for="name" >Username</label>
-			      			<input type="text" class="form-control" id="username" placeholder="Username" required>
+			      			<input type="text" class="form-control" id="un" placeholder="Username" required>
 			      		</div>
 		            <div class="form-group mb-3">
 		            	<label class="label" for="password">Password</label>
-		              <input type="password" class="form-control" id="password" placeholder="Password" required>
+		              <input type="password" class="form-control" id="pw" placeholder="Password" required>
 		            </div>
 		            <div class="form-group">
-		            	<a href="#" class="form-control btn btn-primary submit px-3" onclick="validate()">Sign In</a>
+		            	<input type="button" value="Sign In" class="form-control btn btn-primary submit px-3" onclick="callIt()">
 		            </div>
 		            <div class="form-group d-md-flex">
 		            	<div class="w-50 text-left">
@@ -62,7 +62,7 @@
 									</div>
 									<div class="w-50 text-md-right">
 										<a href="#">Forgot Password</a>
-									</div>
+							</div>
 		            </div>
 		          </form>
 		        </div>
