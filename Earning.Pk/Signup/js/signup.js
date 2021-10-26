@@ -41,6 +41,6 @@ async function create()
                 const output = await res.json();
                 console.log(output);    
           alert("your account is create");
-          window.location.href="F:/Earning.Pk/Earning.Pk/Earning.Pk/login/login.html";
+          window.location.href="https://vikramkumaar.github.io/Earning.Pk/Earning.Pk/login/login.html";
        }
 }
