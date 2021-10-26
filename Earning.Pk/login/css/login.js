@@ -38,7 +38,7 @@ async function callIt()
                 //document.getElementById('naam').innerHTML =name;
                 alert("Successfully login");
                  localStorage.setItem("LOGED_IN_USER", JSON.stringify(cars));
-                window.open('F:/Earning.Pk/Earning.Pk/Earning.Pk/profile/UserProfile.html', '_parent').focus();
+                window.open('https://vikramkumaar.github.io/Earning.Pk/Earning.Pk/profile/UserProfile.html', '_parent').focus();
             }
             else if(nam.trim() == "" && pass.trim() == "")
             {
