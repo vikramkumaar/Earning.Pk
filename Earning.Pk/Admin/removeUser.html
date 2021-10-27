@@ -14,7 +14,8 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
         <link href="css/style.css" rel="stylesheet">   
-        <link href="css/StyleMin.css" rel="stylesheet">       
+        <link href="css/StyleMin.css" rel="stylesheet">  
+        <script src="js/removeUser.js"></script>         
 </head>
 <body>
      <!-- Top Bar Start -->
@@ -64,9 +65,9 @@
       <div class="panel">
               
                 <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Enter username or gmail" >
+                  <input type="gmail" id="ui" class="form-control" placeholder="Enter username or gmail" >
                   <span class="input-group-btn">
-                    <button class="btn btn-default" type="button">Search</button>
+                    <input type="button" value="Search" class="form-control btn btn-default" onclick="findUser()">
                   </span>
                 </div>
                 <table class="table table-striped">
@@ -76,16 +77,16 @@
           <td colspan="4">User Name</td>
           <td>Gmail</td>
           <td>Phone</td>
-          <td>Image</td>
+          <td>Plan</td>
         </tr>
         <tr style="background: #749232;color: #fff">
-          <td colspan="4">-----</td>
-          <td><b>-----</b></td>
-          <td>-----</td>
-          <td>-----</td>
+          <td colspan="4" id="nam">-----</td>
+          <td id="mail"><b>-----</b></td>
+          <td id="phn">-----</td>
+          <td id="plan">-----</td>
         </tr>
          <tr>
-          <td colspan="4">No data found</td>
+          <td colspan="4" id="msg">No data found</td>
           <td></td>
           <td></td>
           <td></td>
