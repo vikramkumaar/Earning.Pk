@@ -48,35 +48,3 @@ async function findUser()
             }
             
 }
-async function removeUser()
-{
-    const data = 
-        {
-
-        info[2]: null;
-        info[4]: null,
-        info[9]: null,
-        info[3]: null,
-        info[5]: null,
-        info[6]: null,
-        info[7]: null,
-        info[8]: null,
-        info[0]: null,
-        info[1]: null,
-        info[10]: null,
-        info[11]: null
-         };
-
-            const res = await fetch('https://guarded-badlands-51738.herokuapp.com/user',)
-            fetch('https://guarded-badlands-51738.herokuapp.com/user', {
-                method: 'POST', // or 'PUT'
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(data),
-                })
-                const output = await res.json();
-                console.log(output);    
-          alert("User Removed");
-       
-}
