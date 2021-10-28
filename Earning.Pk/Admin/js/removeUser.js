@@ -14,13 +14,7 @@ async function findUser()
                     info[2] = element.id;
                     info[3] = element.phone;
                     info[4] = element.fullName;
-                    info[5] = element.question;
-                    info[6] = element.answer;
-                    info[7] = element.accountType;
-                    info[8] = element.accountNumber;
-                    info[9] = element.password;
-                    info[10] = element.approved;
-                    info[11] = element.verificationCode;
+                
                 }
 
             });
@@ -43,22 +37,24 @@ async function findUser()
                 document.getElementById('mail').innerHTML = "-----";
                 document.getElementById('phn').innerHTML = "-----";
                 document.getElementById('plan').innerHTML = "-----";
-                document.getElementById('msg').innerHTML = "No data found";
+                document.getElementById('msg').innerHTML = "data not found";
             }
             
 }
 async function removeUser()
 {
-    const infoo = {
-        "id":info[2]; 
-         };
-         const res = await fetch('https://guarded-badlands-51738.herokuapp.com/user?id',)
-            fetch('https://guarded-badlands-51738.herokuapp.com/user?id', {
-                method: 'DELETE', // or 'PUT'
+
+         fetch(`https://guarded-badlands-51738.herokuapp.com/user?id=${info[2]}`, {
+                method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                })  
-         delete infoo[info[2]];
-          alert("User Removed");
+                }).then((resp)=>{
+                    return resp.json()
+                }).then((data)=>{
+
+                    alert("Customer was deleted successfully!");
+                    window.location.reload();
+                });          
+          
 }

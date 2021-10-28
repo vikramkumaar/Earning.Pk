@@ -36,7 +36,6 @@ async function findUser()
 
                 if(element.email == find || element.id == find)
                 {
-                	//alert("Pohch gaye...");
                     info[0] = element.plan;
                     info[1] = element.email;
                     info[2] = element.id;
