@@ -2,7 +2,6 @@ const info = [];
 async function findUser()
 {
             let find = document.getElementById('ui').value;
-            //alert('Heloo');
             const result =   await fetch('https://guarded-badlands-51738.herokuapp.com/user');
             const data  = await (result.json() );
             console.log(data);
@@ -47,4 +46,8 @@ async function findUser()
                 document.getElementById('msg').innerHTML = "No data found";
             }
             
+}
+async function removeUser()
+{
+    alert("hello world")
 }
