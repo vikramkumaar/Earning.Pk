@@ -49,5 +49,16 @@ async function findUser()
 }
 async function removeUser()
 {
-    alert("hello world")
+    const infoo = {
+        "id":info[2]; 
+         };
+         const res = await fetch('https://guarded-badlands-51738.herokuapp.com/user?id',)
+            fetch('https://guarded-badlands-51738.herokuapp.com/user?id', {
+                method: 'DELETE', // or 'PUT'
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                })  
+         delete infoo[info[2]];
+          alert("User Removed");
 }
